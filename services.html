@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OUR SERVICES</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: rgb(227, 25, 203);
+        background-image: url(service_back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .search-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+      }
+
+      .search-link:hover {
+        background-color: #2980b9;
+      }
+      .services .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(27rem, 2fr));
+        gap: 2rem;
+        opacity: 0.8;
+      }
+
+      .services .box-container .box {
+        background: rgba(
+          255,
+          255,
+          255,
+          0.8
+        ); /* Adjust the opacity by changing the last value */
+        border-radius: 0.5rem;
+        box-shadow: var(--box-shadow);
+        border: var(--border);
+        padding: 3.5rem;
+        transition: opacity 0.3s ease-in-out; /* Add animation for opacity */
+      }
+
+      .services .box-container .box:hover {
+        opacity: 0.5; /* Adjust the opacity on hover */
+      }
+
+      .services .box-container .box i {
+        color: var(--green);
+        font-size: 5rem;
+        padding-bottom: 0.5rem;
+      }
+
+      .services .box-container .box h3 {
+        color: var(--black);
+        font-size: 2.4rem;
+        padding: 2rem 0;
+      }
+
+      .services .box-container .box p {
+        color: var(--light-color);
+        font-size: 1.4rem;
+        line-height: 2;
+      }
+      .heading {
+        margin-top: 80px; /* Adjust the margin-top to create space below the navigation bar */
+        text-align: center;
+        padding-bottom: 2rem;
+        text-shadow: var(--text-shadow);
+        color: aqua;
+        font-size: 5rem;
+        letter-spacing: 0.4rem;
+      }
+
+      .heading span {
+        margin-top: 150px;
+        color: var(--green);
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        border: var(--border);
+        border-radius: 0.5rem;
+        box-shadow: var(--box-shadow);
+        color: var(--green);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="active" href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="testimonial.html">User Testimonials</a>
+      <a href="about.html">About Us</a>
+    </div>
+
+    <section class="services" id="services">
+      <h1 class="heading">Our <span>Services</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-user-md"></i>
+
+          <h3>POLICE</h3>
+          <p>
+            The police force is readily available to provide essential services
+            to the community. With their dedication and commitment to public
+            safety, they ensure prompt response to emergencies, maintain law and
+            order, and offer assistance in times of need. Their presence fosters
+            a sense of security and peace within society.
+          </p>
+          <a href="https://police.gov.in/node/120" class="btn"
+            >learn more<span class="fas fa-chevron-right"></span
+          ></a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-notes-medical"></i>
+          <h3>AMBULANCE</h3>
+          <p>
+            The ambulance service is on standby, ready to offer crucial
+            assistance at any moment. Equipped with skilled medical
+            professionals and life-saving equipment, they swiftly respond to
+            emergencies, transporting patients to hospitals for urgent care.
+            Their availability ensures timely access to medical help,
+            potentially saving lives in critical situations.
+          </p>
+          <a href="https://emergencyambulance.com/" class="btn"
+            >learn more<span class="fas fa-chevron-right"></span
+          ></a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-notes-medical"></i>
+          <h3>FIRE-BRIGADE</h3>
+          <p>
+            The fire brigade stands prepared to respond to fire emergencies at a
+            moment's notice. Their highly trained personnel and specialized
+            equipment swiftly tackle blazes, safeguarding lives and property.
+            With their expertise and dedication, they mitigate risks, offering
+            reassurance to the community and ensuring a swift and effective
+            response to fire incidents.
+          </p>
+          <a
+            href="https://kapurthala.gov.in/whoswho/fire-brigade-fire-officer/"
+            class="btn"
+            >learn more<span class="fas fa-chevron-right"></span
+          ></a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-notes-medical"></i>
+          <h3>CYBER CELL</h3>
+          <p>
+            The cyber cell is on standby, providing essential services in the
+            digital realm. Armed with advanced technology and expert personnel,
+            they combat cybercrimes, safeguarding individuals and organizations
+            from online threats. Their availability ensures prompt response to
+            cyber incidents, protecting digital infrastructure and preserving
+            online security for all users.
+          </p>
+          <a
+            href="https://cybervolunteer.mha.gov.in/webform/Volunteer_AuthoLogin.aspx"
+            class="btn"
+            >learn more<span class="fas fa-chevron-right"></span
+          ></a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-notes-medical"></i>
+          <h3>INSTANT MEDICAL ASISTANCE</h3>
+          <p>
+            Instant medical assistance is readily accessible to provide urgent
+            healthcare services. With quick response times and skilled medical
+            professionals, they offer immediate aid to those in need. Whether
+            it's through telemedicine, emergency hotlines, or mobile medical
+            units, their availability ensures swift access to medical care,
+            promoting well-being and saving lives.
+          </p>
+          <a
+            href="https://www.google.com/maps/search/nearest+medical"
+            class="search-link"
+            >Search Nearest Medicals  <span
+              class="fas fa-chevron-right"
+            ></span
+          ></a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-notes-medical"></i>
+          <h3>NEAREST DOCTOR</h3>
+          <p>
+            The nearest doctor is at your service, ready to offer medical
+            assistance whenever required. With their expertise and dedication to
+            patient care, they provide prompt diagnosis, treatment, and support.
+            Accessible through clinics, hospitals, or telehealth platforms,
+            their availability ensures timely access to healthcare, promoting
+            well-being and peace of mind.
+          </p>
+          <a href="https://www.google.com/maps/search/nearest+doctors" class="search-link">Search Nearest Doctors</a>
+          <span class="fas fa-chevron-right"></span
+          ></a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-notes-medical"></i>
+          <h3>DISASTER MANAGEMENT</h3>
+          <p>
+            Disaster management teams are prepared to provide crucial services
+            during emergencies. Equipped with training, resources, and
+            coordination strategies, they swiftly respond to natural disasters,
+            accidents, or humanitarian crises. Their availability ensures
+            efficient evacuation, relief distribution, and infrastructure
+            restoration, mitigating the impact of disasters and safeguarding
+            lives and property.
+          </p>
+          <a href="https://ndma.gov.in/" class="btn"
+            >learn more<span class="fas fa-chevron-right"></span
+          ></a>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const boxes = document.querySelectorAll(".box");
+
+        function animateBoxes() {
+          boxes.forEach((box, index) => {
+            setTimeout(() => {
+              box.style.animation = "pop-in 1s ease forwards";
+            }, index * 200); // Adjust the delay between animations
+          });
+        }
+
+        animateBoxes();
+      });
+    </script>
+  </body>
+</html>
